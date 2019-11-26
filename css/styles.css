@@ -2,12 +2,28 @@ body {
     color: white;
 }
 
-.black-text {
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
     color: black;
 }
 
-.navbar-bramd {
-    color:black;
+.navbar-default .navbar-brand:hover {
+    color: black;
+}
+
+.container-art {
+    min-height: 30em;
+}
+
+.container-sales {
+    background-color: #1E3932;
+    min-height: 20em;
 }
 
 .container-art, .jumbotron {
@@ -21,6 +37,9 @@ body {
 
 .navbar {
     margin-bottom: 0;
+    background-color: #D6152B;
+    border-radius: 0;
+    border: 0;
 }
 
 .container-fluid {
@@ -39,6 +58,10 @@ body {
     max-width: 100%;
 }
 
+.share-space:hover {
+    opacity: .5;
+}
+
 .col-xs-4 {
     padding-right: 0;
     padding-left: 0;
@@ -47,4 +70,16 @@ body {
 .col-xs-12 {
     padding-right: 0;
     padding-left: 0;
+}
+
+.jumbotron {
+    margin-bottom: 0;;
+}
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+.sales-center {
+    vertical-align: middle;
 }
