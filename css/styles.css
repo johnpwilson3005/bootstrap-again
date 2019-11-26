@@ -1,0 +1,12 @@
+body {
+    color: white;
+}
+
+.container-art, .jumbotron {
+    background-color: #1E3932;
+    /* background-color: #D6152B; */
+}
+
+.products-jump {
+    background-color: #D6152B;
+}
